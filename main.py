@@ -25,6 +25,7 @@ login_manager.init_app(app)
 
 # justr to check if git is working with vs code anotherthing added later 
 # edited on the server
+# new branch update
 
 @login_manager.user_loader
 def load_user(user_id):
